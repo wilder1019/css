@@ -1,1 +1,76 @@
-inicio
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+	<title>css estilos</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\estilos.css">
+	<meta name="viewport" content="width-device-width, user-scalable=no" >
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+<body>
+
+<section>
+	<div id="wrapper">
+    <article>
+    <header id="cabecera">
+		<div>
+		<h1>Comenzando con la Fotografía</h1>
+		</div>
+		<a href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\paisajes.html">Paisajes</a>
+		<a href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\Retratos.html">Retratos</a>
+		<a href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\index.html" id="linea">Inicio</a>
+		
+
+	</header>
+	</article>
+	<article id="color">
+
+	<div class="primero">
+		<img src="imagenes/paisaje4.jpg">
+	</div>
+
+	<div class="segundo">
+
+	    <div id="seg">
+		<img src="imagenes/paisaje5.jpg" id="paisaje">
+		<h4>Paisajes</h4>
+		</div>
+
+		<div id="ter">
+		<img src="imagenes/retrato4.jpg" id="retrato">
+		<h4>Retratos</h4>
+		</div>
+
+	</div>
+
+	</article>
+	<article>
+	<footer>
+		<div id="contacto">
+		<h3>Contacto</h3>
+		<p>Celular: 3233643283</p>
+		<p>Dirección: calle 64a #111c-18</p>
+		<p>w.sanchez@waplicaciones</p>
+		</div>
+		<div id="terminos">
+		<h3>Terminos</h3>
+		<p>El presente documento reúne la<br> Políticas de Publicación, la <br>Política de Privacidad y <br>Confidencialidad, así como los <br>Límites de Responsabilidad, información indispensable para un sitio web universitario.</p>
+		</div>
+		<div id="redes">s
+		<h3>Redes Sociales</h3>
+		<ul>
+		<li><a href="https://www.facebook.com/" target="u_blank"><img src="imagenes/face.jpg">  Sigueme en Facebook</a></li>
+		<li><a href="https://twitter.com/iniciarsesion?lang=es" target="u_blank"><img src="imagenes/twitter.jpg">  Sigueme en twitter</a></li>
+		<li><a href="https://www.instagram.com/" target="u_blank"><img src="imagenes/instagram.jpg">  Sigueme en Instagram</a></li>
+		</ul>
+		</div>
+		<div id="derechos">
+		<h3>Derechos</h3>
+		<p> Wilder Sanchez<br>©copy right 2017</p>
+		</div>
+	</footer>
+	</article>
+	</div>
+</section>
+</body>
+</html>
