@@ -1,0 +1,393 @@
+@font-face{
+	font-family:'Dancing Script';
+	src: url('Dancing Script');
+}
+#linea{
+	text-decoration:none;
+}
+body {
+	background-color: #02010A;
+	font-family:'Dancing Script', cursive, helvetica, verdana, arial;
+
+}
+
+footer{
+	width: 100%;
+	background-color: #5B7989;
+    border-top: 0;
+    display: inline-flex;
+    border-radius: 0 0 10px 10px;
+} 
+img{
+box-shadow: 2px  2px black;
+
+}
+h4{
+	text-align: center;
+}
+#color{
+	margin: 0 auto;
+ 	background-color: #82c3a6;
+
+}
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+#cabecera {
+	margin: 0 auto;
+	width: 900px;
+	height: 70px;
+	background-color: #5B7989;
+	border-radius: 10px 10px 0 0;
+	padding-bottom: 10px;
+	-webkit-animation: slide 1s forwards;
+
+}
+@-webkit-keyframes slide{
+0%{
+	margin-top:150%;
+}
+60%{
+	margin-top:-5%;
+}
+100%{
+	margin-top: 0%;
+}
+}
+#cabecera h1{
+	color: white;
+	text-shadow: 2px #02010A;
+	margin: 5px 0 0 5px;
+}
+#cabecera a{
+	padding: 0.5% 2% 0 0;
+	float:right;
+	margin-right: 30px;
+	color:white;
+}
+#cabecera a:hover{
+	border-radius: 5px;
+	background-color: #00BBDD;
+}
+.primero{
+	padding-top: 20px;
+	padding-bottom: 20px;
+		margin: 0 auto;
+	  	width: 90%;
+}
+.primero img{
+	margin: 0 auto;
+	width: 100%;
+}
+#crisales{
+	width: 100%;
+	margin: 10%;
+}
+
+#retrato{
+	width:100%; 
+	margin:0 auto;
+	
+}
+#paisaje{
+	width: 100%;
+	margin: 0 auto;
+}
+.segundo{
+	background-color: #d5c75f;
+	display: inline-flex;
+	padding: 30px;
+
+}
+#seg, #ter{
+	width: 50%;	
+	margin: 10px;
+}
+ #redes{
+ 	margin: 0 auto;
+	width: 25%;
+ }
+ #redes h3{
+ 	text-align: center;
+ }
+#contacto , #terminos, #derechos{
+	margin: 0 auto;
+	width: 25%;
+	text-align: center;
+}
+
+#ter img:hover{
+	transform: translate(20px, -5px);
+	transition-duration:2s;
+}
+#seg img:hover{
+	transform: rotate(10deg);
+	transition-duration:2s;
+}
+#redes img{
+	border-radius: 10px;
+	width: 20%;
+	margin:0 auto;
+}
+.ppri .pseg{
+	width: 100%;
+	margin: 0 auto;
+}
+#cool{
+	align-items: center;
+	width: 100%;
+	background-color: #d5c75f;
+}
+.ppri img{
+width: 100%;
+margin: 10px 0 5px 0;
+}
+.ppri div{
+		align-items: center;
+		display: inline-flex;
+		width:30.5%;
+		margin-right:10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+}
+.pseg img{
+	width: 100%;
+	margin: 5px 0 10px 0;
+}
+.pseg div{
+	    align-items: center;
+		display: inline-flex;
+		width:30.5%;
+		margin-right:10px;
+		margin-left: 10px;
+		margin-top: 10px;
+}
+.gris{
+	-webkit-filter grayscale(100%);
+	filter: grayscale(100%);
+}
+#dis{
+	-webkit-filter blur(10px);
+	filter: blur(10px);
+}
+#sepia{
+	-webkit-filter sepia(90%);
+	filter: sepia(90%);
+}
+@media all and (max-width: 900px){
+	#wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#cabecera{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#cool{
+		align-items: center;
+		width: 100%;
+		margin:0 auto;
+	}  
+	.ppri{
+		width: 100%;
+		margin:0 0 0 10px;
+	}
+	.ppri div{
+	width: 32%;
+	margin: 0 auto;
+	}
+	.ppri img{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.pseg{
+		width: 100%;
+		margin:0 0 0 10px;
+	}
+	.pseg div{
+	width: 32%;
+	margin: 0 auto;
+	}
+	.pseg img{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.primero{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#seg{
+		width: 50%;
+		margin: 0 auto;
+	}
+	#ter{
+		width: 50%;
+		margin: 0 auto
+	}
+	#contacto, #terminos{
+		width: 50%;
+		margin: 0 auto
+	}
+	#redes, #derechos{
+		width: 50%;
+		margin: 0 auto;
+	} 
+}
+
+@media all and (max-width: 720px){
+	#wrapper{
+		width: 100%;
+		margin:0 auto;
+	}
+	#cabecera{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#cool{
+		width: 100%;
+		margin:0 auto;
+	}  
+	#color{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.ppri{
+		width: 100%;
+		margin:0 0 0 4px;
+	}
+	.ppri div{
+	 width: 32%;
+	 margin: 0 auto;
+	}
+	.ppri img{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.pseg{
+		width: 100%;
+		margin:0 0 0 4px;
+	}
+	.pseg div{
+	 width: 32%;
+	 margin: 0 auto;
+	}
+	.pseg img{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.primero{
+		width: 90%;
+		margin: 0 auto;
+	}
+	#seg{
+		width: 50%;
+		margin: 0 auto;
+	}
+	#ter{
+		width: 50%;
+		margin: 0 auto
+	}
+	footer{
+		width: 100;
+		margin: 0 auto;
+	}
+	#contacto, #terminos{
+		width: 50%;
+		margin: 0 auto;
+	}
+	#redes, #derechos{
+		width: 50%;
+		margin: 0 auto;
+
+	} 
+}
+@media all and (max-width: 420px){
+	#wrapper{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#cabecera{
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		order: 1;
+	}
+	#color{
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+	}
+	#cool{
+		padding: 0;
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		align-items: center;
+	}
+	.ppri{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.ppri div{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.ppri img{
+		margin: 0 auto;
+		width: 85%;
+	}
+	.pseg{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.pseg div{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.pseg img{
+		width: 85%;
+		margin:0 auto;
+	}
+	.primero{
+		width: 80%;
+		margin: 0 auto;
+		order: 2;
+	}
+	.segundo{
+		display: block ;
+	}
+	#seg{
+		width:100%;
+		margin: 0 auto;
+		order: 3;
+	}
+	#ter{
+		width: 100%;
+		margin: 0 auto;
+		order: 4;
+	}
+	#contacto{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#terminos{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#redes{
+		width: 100%;
+		margin: 0 auto;
+	} 
+	#redes img{
+		width: 10%;
+		margin:0 auto;
+	}
+	#derechos{
+		width: 100%;
+		margin: 0 auto;
+	}
+	footer {
+		display: inline-block;
+	}
+}
