@@ -1,1 +1,72 @@
-retratos
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, user-scalable=no" >
+	<title>css estilos</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+
+</head>
+<body>
+<section id="wrapper">
+    <header id="cabecera">
+	<div>
+		<h1>Retratos</h1>
+		<a href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\paisajes.html">Paisajes</a>
+		<a href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\Retratos.html" id="linea">Retratos</a>
+		<a href="C:\Users\Desarrollo6\Desktop\wilder\wilder\CSS\tarea\index.html" >Inicio</a>
+	</div>
+    </header>
+	<article id="cool">
+		<div class="ppri">
+			<div>
+			<img src="imagenes/retrato4.jpg" id="dis">
+			</div>
+			<div>
+			<img src="imagenes/retrato4.jpg" class="gris">
+			</div>
+			<div>
+			<img src="imagenes/retrato4.jpg" id="sepia">
+			</div>
+		</div>
+		<div class="pseg">
+			<div>
+				<img src="imagenes/retrato5.jpg" class="gris">
+			</div>
+			<div>
+				<img src="imagenes/retrato5.jpg">
+			</div>
+			<div>
+				<img src="imagenes/retrato5.jpg" class="gris">
+			</div>
+		</div>
+	</article>
+<footer>
+		<div id="contacto">
+		<h3>Contacto</h3>
+		<p>Celular: 3233643283</p>
+		<p>Dirección: calle 64a #111c-18</p>
+		<p>w.sanchez@waplicaciones</p>
+		</div>
+		<div id="terminos">
+		<h3>Terminos</h3>
+		<p>El presente documento reúne la<br> Políticas de Publicación, la <br>Política de Privacidad y <br>Confidencialidad, así como los <br>Límites de Responsabilidad, información indispensable para un sitio web universitario.</p>
+		</div>
+		<div id="redes">
+		<h3>Redes Sociales</h3>
+		<ul id="sociales">
+		<li><a href="https://www.facebook.com/" target="u_blank"><img src="imagenes/face.jpg">  Sigueme en Facebook</a></li>
+		<li><a href="https://twitter.com/iniciarsesion?lang=es" target="u_blank"><img src="imagenes/twitter.jpg">  Sigueme en Twitter</a></li>
+		<li><a href="https://www.instagram.com/" target="u_blank"><img src="imagenes/instagram.jpg">  Sigueme en Instagram</a></li>
+		</ul>
+		</div>
+		<div id="derechos">
+		<h3>Derechos</h3>
+		<p> Wilder Sanchez<br>©copy right 2017</p>
+		</div>
+	</footer>
+</section>
+
+</body>
+</html>
